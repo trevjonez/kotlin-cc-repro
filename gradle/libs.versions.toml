@@ -1,0 +1,17 @@
+[versions]
+jdk = "21"
+
+[plugins]
+# https://plugins.gradle.org/plugin/com.gradle.common-custom-user-data-gradle-plugin
+gradle-custom-user-data = { id = "com.gradle.common-custom-user-data-gradle-plugin", version = "2.0.2" }
+
+# https://plugins.gradle.org/plugin/com.gradle.develocity
+gradle-enterprise = { id = "com.gradle.develocity", version = "3.18.1" }
+
+[libraries]
+# https://github.com/junit-team/junit5/releases
+junit-bom = { group = "org.junit", name = "junit-bom", version = "5.11.3" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter" }
+junit-launcher = { group = "org.junit.platform", name = "junit-platform-launcher" }
+
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit5" }
